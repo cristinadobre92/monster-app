@@ -1,4 +1,3 @@
-/* global workbox */
 /**
  * Welcome to your Workbox-powered service worker!
  *
@@ -15,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/monster-app/precache-manifest.66f0dc4db7530fc59819243cd4dd5d4b.js"
+  "/monster-app/precache-manifest.2a8662313417044d5f1755ded9427f04.js"
 );
 
 self.addEventListener('message', (event) => {
